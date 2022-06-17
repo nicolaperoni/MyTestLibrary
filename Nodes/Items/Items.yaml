@@ -19,3 +19,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 300.0
+- Name: MyLabel
+  Type: ObjectLibraryItem
+  Children:
+  - Name: MyLabel
+    Id: g=18cb85a8e02547fdf18e4b341713e133
+    Supertype: Label
+    ReferenceType: HasComponent
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Label1"}
