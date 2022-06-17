@@ -1,0 +1,21 @@
+Name: Items
+Type: FolderType
+Children:
+- Name: MyPanel
+  Type: ObjectLibraryItem
+  Children:
+  - Name: MyPanel
+    Id: g=0cc48bb100d865bf6b54534b4ec7ae12
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
